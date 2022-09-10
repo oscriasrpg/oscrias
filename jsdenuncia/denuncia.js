@@ -82,7 +82,7 @@ $(document).ready(function() {
                 html: '<div id="recaptcha"></div>',
                 didOpen: () => {
                   grecaptcha.render('recaptcha', {
-                    'sitekey': '6LdvplUUAAAAAK_Y5M_wR7s-UWuiSEdVrv8K-tCq'
+                    'sitekey': '6LfZ7eshAAAAANgu-PaGKn1ovSAjKg-hYGfAQAn1'
                   })
                 },
                 preConfirm: function () {
