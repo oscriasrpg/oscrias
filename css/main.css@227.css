@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&display=swap');
 
+
+
+
 .logo a > img {
     width: 200px;
 }
@@ -1175,7 +1178,7 @@ screen and (max-height:300px) {
 
 .swiper-container {
     margin: 0 auto;
-    margin-top: 75px;
+    margin-top: 0px;
     position: relative;
     overflow: hidden;
     list-style: none;
@@ -3667,7 +3670,7 @@ body {
 }
 
 .title-all {
-    margin-top: 0px
+    margin-top: 50px
 }
 
 .title-all h2 {
@@ -3970,7 +3973,7 @@ body {
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    margin-top: 70px
+    margin-top: 0px
 }
 
 .main-content .left-side img {
@@ -4006,13 +4009,15 @@ body {
 }
 
 .main-content .right-side .title h1 {
-    font-family: "Montserrat Black";
+    font-family: "Montserrat";
     margin: 0;
     color: #fff;
     position: relative;
     font-size: 48px;
     padding-bottom: 30px;
-    line-height: 1.1
+    line-height: 1.1;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
 .main-content .right-side .title h1::after {
@@ -9434,7 +9439,12 @@ body {
 .social a:hover {
     opacity: 0.7;
 }
-
+@media (max-width: 1150px) {
+    .render3 {
+        right: 140px;
+        display: none;
+    }
+}
 @media (max-width: 1150px) {
     .render {
         right: 140px;
