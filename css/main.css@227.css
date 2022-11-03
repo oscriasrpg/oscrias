@@ -9442,7 +9442,6 @@ body {
 @media (max-width: 1150px) {
     .render3 {
         right: 140px;
-        display: none;
     }
 }
 @media (max-width: 1150px) {
@@ -9460,6 +9459,7 @@ body {
 @media (max-width: 890px) {
     .render {
         right: -40px;
+        display: none;
     }
 }
 
