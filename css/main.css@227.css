@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&display=swap');
 
-
-
-
 .logo a > img {
     width: 200px;
 }
@@ -55,12 +52,12 @@ a {
 body::-webkit-scrollbar {
     width: 10px;
 }
-   
+
 body::-webkit-scrollbar-track {
     background-color: #eb2055;
     opacity: 0.5;
 }
-   
+
 body::-webkit-scrollbar-thumb {
     background-color: #eb2055;
     outline: 1px solid slategrey;
@@ -1178,7 +1175,7 @@ screen and (max-height:300px) {
 
 .swiper-container {
     margin: 0 auto;
-    margin-top: -75px;
+    margin-top: 75px;
     position: relative;
     overflow: hidden;
     list-style: none;
@@ -3670,7 +3667,7 @@ body {
 }
 
 .title-all {
-    margin-top: 130px
+    margin-top: 0px
 }
 
 .title-all h2 {
@@ -3890,11 +3887,11 @@ body {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    -webkit-border-radius: 10em;
-    border-radius: 10em;
+    -webkit-border-radius: 5em;
+    border-radius: 5em;
     color: #fff;
     width: 250px;
-    height: 65px;
+    height: 55px;
     text-decoration: none;
     font-weight: 700;
     border: 3px solid transparent;
@@ -4510,11 +4507,11 @@ body {
 .intro-block {
     position: relative;
     z-index: 0;
-    margin-top: 100px
+    margin-top: 0px
 }
 
 .intro-block .title-news {
-    margin-top: 130px
+    margin-top: 0px
 }
 
 .intro-block .title-news h2 {
@@ -4913,7 +4910,7 @@ body {
 }
 
 .intro-screen .intro-block .container-store .center-side {
-    width: 70.5%;
+    width: 100%;
     background: #fff;
     -webkit-border-radius: 14px;
     border-radius: 14px;
@@ -7587,7 +7584,7 @@ body {
     }
 
     .intro-block .container-instruction {
-        margin-top: 280px
+        margin-top: 0px
     }
     .intro-block .container-blog .youtube-blogers .blogers-box {
         -webkit-flex-wrap: wrap;
@@ -7944,7 +7941,7 @@ body {
 }
 
 @media only screen and (max-width:768px) {
-    
+
     .toggle {
         top: auto
     }
@@ -8253,7 +8250,7 @@ body {
         margin-top: 20px
     }
     .intro-block .container-instruction {
-        margin-top: 100px
+        margin-top: 0px
     }
 }
 
@@ -8849,7 +8846,7 @@ body {
 .intro-block .table-dashboard .heading span:hover {
     font-weight: 800;
     cursor: pointer;
-    
+
 }
 
 .intro-block .table-dashboard .row {
@@ -9000,7 +8997,7 @@ body {
     display: block;
     padding-top: 100%;
   }
-  
+
 .loader-circular {
     -webkit-animation: rotate 2s linear infinite;
             animation: rotate 2s linear infinite;
@@ -9014,7 +9011,7 @@ body {
     left: 0;
     margin: auto;
   }
-  
+
   .loader-path {
     stroke-dasharray: 150,200;
     stroke-dashoffset: -10;
@@ -9022,14 +9019,14 @@ body {
             animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
     stroke-linecap: round;
   }
-  
+
   @-webkit-keyframes rotate {
     100% {
       -webkit-transform: rotate(360deg);
               transform: rotate(360deg);
     }
   }
-  
+
   @keyframes rotate {
     100% {
       -webkit-transform: rotate(360deg);
@@ -9371,7 +9368,7 @@ body {
     color: #fff;
     background: #010103;
   }
-  
+
   ::selection {
     color: #fff;
     background: #010103;
@@ -9452,7 +9449,7 @@ body {
 
 @media (max-width: 890px) {
     .render {
-        right: 40px;
+        right: -40px;
     }
 }
 
