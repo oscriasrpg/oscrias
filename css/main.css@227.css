@@ -1178,7 +1178,7 @@ screen and (max-height:300px) {
 
 .swiper-container {
     margin: 0 auto;
-    margin-top: 75px;
+    margin-top: -75px;
     position: relative;
     overflow: hidden;
     list-style: none;
